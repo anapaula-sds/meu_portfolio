@@ -1,7 +1,7 @@
 :root {
-    --verdeoliva: #91ae6f;
-    --verdemato: #3fb26d;
-    --azulpiscina: #64e8e1;
+    --azul: #346df3;
+    --rosachoque: #d016fe;
+    --azulpiscina: #44FFFF;
  
     --gray-200: #f1fffe;
     --gray-400: #505861;
@@ -73,7 +73,7 @@ button, a{
     width: 100%;
     height: 5rem;
     background-color: var(--azulpiscina);
-    border-bottom: 1px solid var(--verdemato);
+    border-bottom: 2px solid var(--rosachoque);
     /* Aplica transparência */
     filter: opacity(0.9);
 }
@@ -87,11 +87,11 @@ button, a{
 }
 
 #titulo a:hover {
-    color: var(--verdemato); 
+    color: var(--rosachoque); 
 }
 
 .menu_container a:hover{
-    color: var(--verdeoliva);
+    color: var(--azul);
 }
 
 .menu_content{
