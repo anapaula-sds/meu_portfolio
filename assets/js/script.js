@@ -20,8 +20,8 @@ async function getApiGithub(){
                     >
                         Github
                     </a>
-                    <p>${perfil.followers}</p>
-                    <p>${perfil.public_repos}</p>
+                    <p>${perfil.followers} Seguidores</p>
+                    <p>${perfil.public_repos} Repositorios</p>
                 </div>
             </article>
             `;
