@@ -2,6 +2,8 @@
     --azul: #346df3;
     --rosachoque: #d016fe;
     --azulpiscina: #44FFFF;
+
+    --gradiente: linear-gradient(45deg, #23c4c7, #e524a1, #882AF5);
  
     --gray-200: #f1fffe;
     --gray-400: #505861;
@@ -72,7 +74,7 @@ button, a{
     top: 0;
     width: 100%;
     height: 5rem;
-    background-color: var(--azulpiscina);
+    background: var(--gradiente);
     border-bottom: 2px solid var(--rosachoque);
     /* Aplica transparência */
     filter: opacity(0.9);
